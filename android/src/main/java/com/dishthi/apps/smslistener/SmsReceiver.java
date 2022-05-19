@@ -1,4 +1,4 @@
-package com.dishthi.smslistener;
+package com.dishthi.apps.smslistener;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

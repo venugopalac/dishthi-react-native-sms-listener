@@ -1,15 +1,12 @@
 /* @flow */
-import type CancellableSubscription from './CancellableSubscription'
-import type ReceivedSmsMessage from './ReceivedSmsMessage'
+import type Cancellable from './Cancellable'
+import type SmsReceiver from './SmsReceiver'
 import { DeviceEventEmitter } from 'react-native'
 
 const SMS_RECEIVED_EVENT = 'com.dishthi.smslistener:smsReceived'
 
 export default {
-  addListener(listener: (message: ReceivedSmsMessage) => void): CancellableSubscription {
-    return DeviceEventEmitter.addListener(
-      SMS_RECEIVED_EVENT,
-      listener
-    )
+  addListener(listener: (message: SmsReceiver) => void): Cancellable {
+    return DeviceEventEmitter.addListener( SMS_RECEIVED_EVENT, listener)
   }
 }
