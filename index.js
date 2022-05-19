@@ -3,7 +3,7 @@ import type Cancellable from './Cancellable'
 import type SmsReceiver from './SmsReceiver'
 import { DeviceEventEmitter } from 'react-native'
 
-const SMS_RECEIVED_EVENT = 'com.dishthi.smslistener:smsReceived'
+const SMS_RECEIVED_EVENT = 'com.dishthi.apps.listener:smsReceived'
 
 export default {
   addListener(listener: (message: SmsReceiver) => void): Cancellable {
