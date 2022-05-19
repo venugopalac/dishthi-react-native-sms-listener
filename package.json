@@ -1,0 +1,26 @@
+{
+    "name": "dishthi-native-sms-listener",
+    "version": "0.0.1",
+    "description": "Allows you to listen for incoming SMS messages",
+    "license": "MIT",
+    "main": "index.js",
+    "author": {
+      "name": "Venugopala Channarayappa",
+      "email": "vchanray@dishthi.com",
+      "url": "https://github.com/venugopalac"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/venugopalac/dishthi-react-native-sms-listener.git"
+    },
+    "keywords": [
+      "react",
+      "native",
+      "react-native",
+      "android",
+      "ios",
+      "sms",
+      "listener",
+      "sms-listener"
+    ]
+  }
